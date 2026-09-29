@@ -1,0 +1,8 @@
+---
+# kitty
+kitty_package_name: "kitty"
+kitty_min_theme_version: "0.26.0"
+kitty_theme_name: "Catppuccin-Mocha"
+kitty_shortcut_name: "Kitty Terminal"
+kitty_shortcut_command: "kitty"
+kitty_shortcut_binding: "<Control><Alt>t"

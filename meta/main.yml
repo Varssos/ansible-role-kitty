@@ -1,0 +1,29 @@
+---
+galaxy_info:
+  author: Varssos
+  description: Install kitty terminal, apply the Catppuccin Mocha theme via personal dotfiles, and configure a GNOME keyboard shortcut on Debian/Ubuntu systems
+  license: MIT
+  min_ansible_version: "2.9"
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - focal
+        - jammy
+        - noble
+    - name: Debian
+      versions:
+        - bullseye
+        - bookworm
+    - name: Linux Mint
+      versions:
+        - "21"
+        - "22"
+
+  galaxy_tags:
+    - kitty
+    - terminal
+    - cli
+    - gnome
+
+dependencies: []
