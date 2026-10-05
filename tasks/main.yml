@@ -138,3 +138,4 @@
   when:
     - ansible_distribution == 'Ubuntu'
     - kitty_user_session_bus.stat.exists
+  ignore_errors: true  # Fails in headless/VM environments without GNOME settings schemas
