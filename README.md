@@ -6,7 +6,7 @@ Ansible role to install the [kitty](https://sw.kovidgoyal.net/kitty/) terminal, 
 
 - Debian or Ubuntu host
 - `become: true` privileges (sudo)
-- `dotfiles_path`, `user_home_path` and `ansible_user` must already be set and `~/dotfiles` cloned with a `kitty` stow package (provided by this repo's `dotfiles`/`common` roles) — run this role after `dotfiles`
+- Depends on the `dotfiles` role (clones `~/dotfiles`, which must contain a `kitty` stow package; provides `dotfiles_path` and `user_home_path`). `ansible_user` must be set
 - GUI/GNOME session required at runtime for shortcut configuration (skipped gracefully if not present)
 
 ## Role Variables
